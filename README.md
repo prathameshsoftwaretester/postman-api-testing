@@ -1,4 +1,4 @@
-# Ecommerce API Test Suite – Postman
+# Ecommerce API Test Suite - Postman
 
 A hands-on API testing project built using Postman, focused on 
 authentication flows, token handling, and secure endpoint validation 
