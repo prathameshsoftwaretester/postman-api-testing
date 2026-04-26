@@ -88,8 +88,8 @@ pm.test("Status code is 200", function() {
 ## Project Structure
 
 ```
-├── ecommerce-api-collection.json    # Postman collection
-├── ecommerce-environment.json       # Environment variables
+├── ecommerce-api-collection.json                        # Postman collection
+├── ecommerce-environment.postman_environment.json       # Environment variables
 └── README.md
 ```
 
