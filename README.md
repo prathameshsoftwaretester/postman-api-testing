@@ -82,20 +82,16 @@ pm.environment.set("token", jsondata.accessToken);
 pm.test("Status code is 200", function() {
     pm.response.to.have.status(200);
 });
-
-pm.test("Token is present", function() {
-    let jsondata = pm.response.json();
-    pm.expect(jsondata.accessToken).to.not.be.undefined;
-});
 ```
-
 ---
 
 ## Project Structure
 
-├── ecommerce-api-collection.json   # Postman collection
-├── ecommerce-environment.json      # Environment variables
+```
+├── ecommerce-api-collection.json    # Postman collection
+├── ecommerce-environment.json       # Environment variables
 └── README.md
+```
 
 ---
 
