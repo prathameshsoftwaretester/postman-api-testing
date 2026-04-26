@@ -9,7 +9,7 @@ using a real-world ecommerce API.
 ## Project Overview
 
 This project simulates a real-world API testing scenario for an 
-ecommerce application. It covers the complete authentication flow — 
+ecommerce application. It covers the complete authentication flow 
 from logging in and extracting a token, to using that token to access 
 protected resources.
 
